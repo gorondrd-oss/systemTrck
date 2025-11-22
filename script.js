@@ -34,7 +34,7 @@ function mulaiLive() {
                     p => updateLokasi(nama, p.coords.latitude, p.coords.longitude),
                     () => console.log("Gagal mengambil lokasi")
                 );
-            }, 30000); //
+            }, 1000); //
         },
         () => alert("Gagal mengambil lokasi!")
     );
